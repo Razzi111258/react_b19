@@ -7,6 +7,7 @@ import Info from "./Info";
 // import Input from "./controled.input/Input";
 import { Toaster } from "react-hot-toast";
 import Multipaldata from "./Multipaldata";
+import Cheious from "./Cheious";
 
 const App = () => {
   return (
@@ -18,7 +19,9 @@ const App = () => {
       {/* <Info /> */}
       {/* <Input /> */}
       <Toaster />
-      <Multipaldata />
+
+      {/* <Multipaldata /> */}
+      <Cheious />
     </>
   );
 };
